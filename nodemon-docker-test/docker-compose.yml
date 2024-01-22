@@ -1,0 +1,6 @@
+version: "3"
+services:
+  nodemon-test:
+    image: oze4/nodemon-docker-test
+    ports:
+      - "1337:1337"
